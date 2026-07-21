@@ -94,7 +94,7 @@ flowchart TD
 
 ## Project Files
 
-- 📁 [Microsoft Project Schedule](ms-project/CRM_Implementation.mpp)
+- 📁 [Microsoft Project Schedule](ms-project/crm-implementation-plan.mpp)
 - 📄 [Project Report (PDF)](report/university-project-report.pdf)
   
 ---
