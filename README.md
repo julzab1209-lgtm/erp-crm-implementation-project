@@ -25,14 +25,13 @@ The project covers the complete planning phase of a CRM implementation, from req
 
 ## Technologies & Tools
 
-- Microsoft Project
-- Comarch ERP Optima (conceptual implementation)
-- Work Breakdown Structure (WBS)
-- Gantt Chart
-- Critical Path Method (CPM)
-- Resource Planning
-- Cost Analysis
-- Risk Management
+| Category | Technologies |
+|----------|--------------|
+| ERP | Comarch ERP Optima |
+| Project Management | Microsoft Project |
+| Planning | Work Breakdown Structure (WBS), Gantt Chart, Critical Path Method (CPM) |
+| Analysis | Resource Planning, Risk Assessment, Cost Analysis |
+| Documentation | Markdown, GitHub |
 
 ---
 
@@ -51,33 +50,69 @@ The project covers the complete planning phase of a CRM implementation, from req
 
 ## Project Workflow
 
-```text
-Requirements Analysis
-        │
-        ▼
-Work Breakdown Structure (WBS)
-        │
-        ▼
-Project Scheduling
-        │
-        ▼
-Resource Allocation
-        │
-        ▼
-Risk Assessment
-        │
-        ▼
-Cost Analysis
-        │
-        ▼
-Critical Path Analysis
-        │
-        ▼
-ERP Business Process
-        │
-        ▼
-Project Documentation
+```mermaid
+flowchart TD
+    A[Requirements Analysis]
+    B[Work Breakdown Structure]
+    C[Project Scheduling]
+    D[Resource Planning]
+    E[Risk Assessment]
+    F[Cost Analysis]
+    G[Critical Path Analysis]
+    H[ERP Business Process]
+    I[Project Documentation]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
 ```
+
+---
+
+## Quick Links
+
+- 📄 [Documentation](#documentation)
+- 📁 [Project Files](#project-files)
+- 📸 [Screenshots](#screenshots)
+- 💼 [Skills Demonstrated](#skills-demonstrated)
+
+---
+
+## Documentation
+
+- 📄 [Project Overview](docs/project-overview.md)
+- 📄 [Project Planning](docs/project-planning.md)
+- 📄 [ERP Business Process](docs/erp-business-process.md)
+- 📄 [Lessons Learned](docs/lessons-learned.md)
+
+---
+
+## Project Files
+
+- 📁 [Microsoft Project Schedule](ms-project/CRM_Implementation.mpp)
+- 📄 [Project Report (PDF)](report/project-report.pdf)
+
+---
+
+## Screenshots
+
+Selected Microsoft Project screenshots are available in the [screenshots](screenshots/) directory.
+
+The folder includes:
+
+- Gantt Chart Overview
+- Critical Path Analysis
+- Resource Sheet
+- Resource Utilization
+- Resource Report
+- Task Cost Overview
+
+➡️ Open the folder: [screenshots](screenshots/)
 
 ---
 
@@ -90,11 +125,7 @@ erp-crm-implementation-project
 │
 ├── docs
 │   ├── project-overview.md
-│   ├── work-breakdown-structure.md
-│   ├── project-schedule.md
-│   ├── resource-management.md
-│   ├── risk-analysis.md
-│   ├── cost-analysis.md
+│   ├── project-planning.md
 │   ├── erp-business-process.md
 │   └── lessons-learned.md
 │
@@ -102,14 +133,16 @@ erp-crm-implementation-project
 │   └── CRM_Implementation.mpp
 │
 ├── report
-│   └── ERP_CRM_Implementation_Report.pdf
+│   └── project-report.pdf
 │
 └── screenshots
-    ├── gantt-chart.png
+    ├── README.md
+    ├── gantt-chart-overview.png
     ├── critical-path.png
+    ├── resource-sheet.png
     ├── resource-graph.png
-    ├── cost-analysis.png
-    └── resource-sheet.png
+    ├── resource-report.png
+    └── task-cost-overview.png
 ```
 
 ---
@@ -118,22 +151,17 @@ erp-crm-implementation-project
 
 - ERP implementation planning
 - Project scheduling
-- Business process analysis
+- Work Breakdown Structure (WBS)
 - Resource management
+- Critical Path Method (CPM)
+- Business process analysis
 - Risk assessment
 - Cost estimation
-- Critical Path Method (CPM)
 - Microsoft Project
-- Technical documentation
-
----
-
-## Project Documentation
-
-The repository includes the complete project documentation, Microsoft Project schedule, screenshots, and a detailed implementation report describing the planning process and ERP-supported business workflows.
+- Technical documentation using Markdown and GitHub
 
 ---
 
 ## License
 
-This repository is available for educational and portfolio purposes.
+This repository is published for educational and portfolio purposes.
