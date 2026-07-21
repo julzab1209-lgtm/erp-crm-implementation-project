@@ -47,10 +47,6 @@ Implementing an ERP-supported CRM process provides several advantages:
 
 ---
 
-## Summary
-
-ERP systems integrate business processes into a single environment, enabling organizations to improve communication, automate routine activities, and support informed business decisions.
-
 ## Process Diagram
 
 ```mermaid
@@ -68,5 +64,11 @@ flowchart LR
     ERP --> Invoice
     ERP --> Reports
 ```
+
+## Summary
+
+ERP systems integrate business processes into a single environment, enabling organizations to improve communication, automate routine activities, and support informed business decisions.
+
+
 
 For project outcomes and key takeaways, see the [Lessons Learned](lessons-learned.md).
